@@ -1,0 +1,47 @@
+HELP.md
+target/
+*.log
+logs/
+uploads/
+src/main/resources/application-local.properties
+*.env
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Local runtime overrides
+.idea/
+
+# Archive metadata and macOS resource forks
+__MACOSX/
+.DS_Store
+._*
+.cursor/
